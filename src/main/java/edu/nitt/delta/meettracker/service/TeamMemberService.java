@@ -12,7 +12,7 @@ public class TeamMemberService {
     @Autowired private TeamRepository teamRepository;
 
     public List<String> getNameList(String teamName) {
-        return teamRepository.findbyTeamName(teamName);
+        return teamRepository.findByTeamName(teamName);
     }
 
 }
