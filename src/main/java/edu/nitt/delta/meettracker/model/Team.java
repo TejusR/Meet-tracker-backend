@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class Teams {
+public class Team {
 
     private String TeamName;
     private String[] Members;

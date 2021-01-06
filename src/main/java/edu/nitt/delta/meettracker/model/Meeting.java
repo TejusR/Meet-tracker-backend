@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class Meetings {
+public class Meeting {
 
     private String TeamId;
     private Integer Date;
