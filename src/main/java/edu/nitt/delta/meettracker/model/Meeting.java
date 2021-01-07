@@ -7,8 +7,8 @@ import lombok.Data;
 @Builder
 public class Meeting {
 
-    private String TeamId;
-    private Integer Date;
-    private String[] PresentPeople;
+    private String teamId;
+    private Integer date;
+    private String[] presentPeople;
     private String MOM_url;
 }

@@ -7,6 +7,6 @@ import lombok.Data;
 @Builder
 public class Team {
 
-    private String TeamName;
-    private String[] Members;
+    private String teamName;
+    private String[] members;
 }

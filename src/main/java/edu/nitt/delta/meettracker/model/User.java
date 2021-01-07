@@ -5,6 +5,6 @@ import lombok.*;
 @Builder
 public class User {
 
-    private String Name;
-    private String Email;
+    private String name;
+    private String email;
 }
