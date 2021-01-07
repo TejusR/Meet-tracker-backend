@@ -9,6 +9,6 @@ public class Meeting {
 
     private String teamId;
     private Integer date;
-    private String[] presentPeople;
+    private String[] attendees;
     private String MOM_url;
 }

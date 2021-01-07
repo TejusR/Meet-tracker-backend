@@ -1,11 +1,5 @@
 package edu.nitt.delta.meettracker.controller.api;
 
-import edu.nitt.delta.meettracker.model.Meeting;
-import edu.nitt.delta.meettracker.model.Team;
-import edu.nitt.delta.meettracker.model.User;
-import edu.nitt.delta.meettracker.repository.MeetingRepository;
-import edu.nitt.delta.meettracker.repository.TeamRepository;
-import edu.nitt.delta.meettracker.repository.UserRepository;
 import edu.nitt.delta.meettracker.service.TeamMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
